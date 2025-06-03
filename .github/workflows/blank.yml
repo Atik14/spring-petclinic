@@ -13,9 +13,9 @@ jobs:
     needs: build
     steps:
     - name: test after build
-    run: echo "after build"
+      run: echo "after build"
   test2:
     runs-on: ubuntu-latest
     steps:
     - name: test in parallel with build
-    run: echo "parallel with build"
+      run: echo "parallel with build"
